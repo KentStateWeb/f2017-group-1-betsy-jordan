@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact</title>
     <meta name="description" content="Page Description Goes Here">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
   </head>
   <body>
     <img src="coffeeshops-2-7-13.jpg"/>
@@ -20,6 +22,16 @@
       <dd>Columbus, OH 43085</dd>
       <dd>Phone: (330) 854-8583</dd>
     <a href="http:/linktomaphere">Link to Map Here</a>
+    <div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoianN0ZXdhNjEiLCJhIjoiY2phMDdwc3J1OHpzazJ3czRja2p6MGFrMSJ9.vIykCxDUjBAZyWyQgwdUUw';
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/jstewa61/cja07xhw298dx2skpncux7349', //hosted style id
+    center: [41.152316,-81.335239], // starting position
+    zoom: 3 // starting zoom
+});
+</script>
 <h2>Hours of Operation<span>(same for both locations)</span></h2>
    <dl>
      <dt><span class="1">Monday - Friday:</span> 6:00AM - 10:30PM</dt>
