@@ -10,6 +10,8 @@ div, section, main, aside, header, footer {
   margin-bottom: 1em;
 }
 
+img {max-width: 100%;
+}
 
 
 /* img max-width: 100% */
