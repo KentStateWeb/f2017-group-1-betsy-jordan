@@ -5,11 +5,12 @@ body {
 }
 
 div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
   padding: .5em;
   margin-bottom: 1em;
 }
 
+img {max-width: 100%;
+}
 
 /* img max-width: 100% */
 
