@@ -1,7 +1,7 @@
 body {
   max-width: 1000px;
   padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Lora', Arial, sans-serif;
 }
 
 div, section, main, aside, header, footer {
@@ -11,9 +11,12 @@ div, section, main, aside, header, footer {
 }
 
 
-
 /* img max-width: 100% */
 
+h1, h2, h3, h4 {
+  font-family: 'Khula', sans-serif;
+  text-transform: uppercase;
+}
 
 * {
   box-sizing: border-box;}
