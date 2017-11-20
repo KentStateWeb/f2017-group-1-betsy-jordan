@@ -1,8 +1,11 @@
 
+
+
 /* Header */
 
 header img {display: block;
             margin: 0 auto;
+            padding-top: 2em;
 }
 
 .logo {width: 200px;
@@ -14,12 +17,13 @@ nav li {font-family: 'Khula', sans-serif;
         list-style-type: none;
         padding-left: 8px;
         padding-right: 8px;
-        padding-top: 3px;
+        padding-top: 15px;
 }
 
 nav ul {text-align: center;
         padding: 10px 10px 10px 10px;
 }
+
 
 
 .menubutton {width: 46px;
@@ -47,11 +51,32 @@ nav ul {text-align: center;
 
 body {
   max-width: 1000px;
-  padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
   color: #3D3D38;
   margin: 0 auto;
 }
+
+
+p {font-family: 'Lora', serif;
+  margin: 35px;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.boldbody {font-weight: 900;
+          font-size: 1.25em;
+          font-family: 'Khula', sans-serif;
+}
+
+h1,h2,h3 {font-family: 'Khula', sans-serif;
+      text-align: center;
+}
+
+h1 {font-size: 2em;
+}
+
+h2 {font-size: 1.6em
+}
+
 
 li {list-style-type: none;
 }
