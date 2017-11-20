@@ -24,8 +24,6 @@ nav ul {text-align: center;
         padding: 10px 10px 10px 10px;
 }
 
-
-
 .menubutton {width: 46px;
             padding: 10px;
 }
@@ -62,10 +60,6 @@ p {font-family: 'Lora', serif;
   line-height: 1.5em;
 }
 
-.boldbody {font-weight: 900;
-          font-size: 1.25em;
-          font-family: 'Khula', sans-serif;
-}
 
 h1,h2,h3 {font-family: 'Khula', sans-serif;
       text-align: center;
@@ -90,18 +84,43 @@ img {max-width: 100%;
 }
 
 
+
 * {
   box-sizing: border-box;}
 
   /* Footer */
 
-  footer {text-align: center;
+footer {text-align: center;
          font-family: 'Khula', sans-serif;
          color: #D2D1C0;
          background-color: #3D3D38;
 }
 
+footer dt {padding-top: 1em;
+          font-size: 1em;
+          font-weight: bold;
+          padding-bottom: .2em;
+}
+
 footer dd {margin: 0 auto;
+          font-size: .8em;
+          padding-right: 1em;
+          padding-left: 1em;
+          line-height: 1.3em;
+          font-family: 'Lora', serif;
+}
+
+footer h2 {border-bottom: 1.3px solid;
+          margin: 0% 25% 0% 25%;
+          padding-bottom: .5em;
+}
+
+@media screen and (min-width: 400px) {
+
+  footer dt {font-size: 1.2em;
+  }
+  footer dd {font-size: 1em;
+  }
 }
 
   /* Nav script link */
