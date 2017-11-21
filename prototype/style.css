@@ -11,6 +11,13 @@ header img {display: block;
 .logo {width: 200px;
 }
 
+@media screen and (min-width: 800px) {
+
+.logo {width: 300px;
+      padding-bottom: 1em;
+}
+}
+
 /* Navigation */
 
 nav li {font-family: 'Khula', sans-serif;
