@@ -3,13 +3,12 @@
 
 /* Header */
 
-header img {display: block;
+.logo {display: block;
             margin: 0 auto;
             padding-top: 2em;
+            width: 200px;
 }
 
-.logo {width: 200px;
-}
 
 @media screen and (min-width: 800px) {
 
@@ -36,7 +35,6 @@ nav ul {text-align: center;
 }
 
 
-
 @media screen and (min-width: 800px) {
 
   a:hover {background-color: #3D3D38;
@@ -46,8 +44,7 @@ nav ul {text-align: center;
 
 @media screen and (max-width: 800px) {
 
-  ul a:active {background-color: #3D3D38;
-          color: #D2D1C0;
+  ul a:active {color: #D2D1C0;
   }
 }
 
@@ -57,11 +54,11 @@ nav ul {text-align: center;
 body {
   color: #3D3D38;
   margin: 0 auto;
+  font-family: 'Lora', serif;
 }
 
 
-p {font-family: 'Lora', serif;
-  margin: 35px;
+p {margin: 35px;
   font-size: 1em;
   line-height: 1.5em;
 }
@@ -77,7 +74,6 @@ h1 {font-size: 2em;
 h2 {font-size: 1.6em
 }
 
-
 li {list-style-type: none;
 }
 
@@ -88,8 +84,6 @@ div, section, main, aside, header, footer {
 
 img {max-width: 100%;
 }
-
-
 
 * {
   box-sizing: border-box;}
