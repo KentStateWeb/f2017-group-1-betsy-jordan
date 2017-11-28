@@ -35,6 +35,7 @@ nav li {font-family: 'Khula', sans-serif;
 
 nav ul {text-align: center;
         padding: 10px 10px 10px 10px;
+        list-style-type: none;
 }
 
 .menubutton {width: 48px;
