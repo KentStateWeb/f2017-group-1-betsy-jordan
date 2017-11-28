@@ -65,11 +65,11 @@ a {text-decoration: none;
 }
 
 /* Body */
-.prices {
+.prices, .event {
   font-family: 'Khula', sans-serif;
 }
 
-.drinks {
+.drinks, .dates {
   font-weight: bold;
 }
 }
