@@ -12,7 +12,8 @@
 @media screen and (min-width: 800px) {
 
 .logo {width: 300px;
-      padding-bottom: 1em;
+      padding-top: 2em;
+      font-size: 1.2em;
 }
 }
 
@@ -35,7 +36,7 @@ nav li {font-family: 'Khula', sans-serif;
 }
 
 nav ul {text-align: center;
-        padding: 10px 10px 10px 10px;
+        padding: 5px 5px 5px 5px;
         list-style-type: none;
         text-decoration: none;
 }
@@ -43,6 +44,10 @@ nav ul {text-align: center;
 .menubutton {width: 48px;
             padding-right: 20px;
             padding-top: 27px;
+}
+
+a {text-decoration: none;
+  color: #3D3D38;
 }
 
 
