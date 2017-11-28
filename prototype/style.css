@@ -65,12 +65,12 @@ a {text-decoration: none;
 }
 
 /* Body */
-.prices {
+.prices, .event {
   font-family: 'Khula', sans-serif;
   font-size: .90em;
 }
 
-.drinks {
+.drinks, .dates {
   font-weight: bold;
 }
 }
