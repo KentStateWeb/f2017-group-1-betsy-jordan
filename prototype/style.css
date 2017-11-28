@@ -91,6 +91,14 @@ a {text-decoration: none;
   padding: 0em 12em 0em 12em;
 }
 
+.wholesale {font-style: italic;
+            color: gray;
+            padding-top: 5px;
+}
+
+.wholesale-link {padding: 4px 4px 4px 4px;
+}
+
 div {
   display: inline-block;
   margin: 0em 0em 0em 13em;
