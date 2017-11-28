@@ -67,6 +67,7 @@ a {text-decoration: none;
 /* Body */
 .prices {
   font-family: 'Khula', sans-serif;
+  font-size: .90em;
 }
 
 .drinks {
@@ -75,11 +76,24 @@ a {text-decoration: none;
 }
 
 .sugar {
-  font-weight: bold;
+  font-weight: bolder;
+  display: block;
+  padding: 0em 12em 0em 12em;
+}
+
+.proudly {
+  text-align: center;
+  padding: 0em 12em 0em 12em;
+}
+
+.flavors {
+  text-align: center;
+  padding: 0em 12em 0em 12em;
 }
 
 div {
   display: inline-block;
+  margin: 0em 0em 0em 13em;
 }
 
 span {
