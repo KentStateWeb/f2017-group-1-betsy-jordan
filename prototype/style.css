@@ -81,14 +81,18 @@ a {text-decoration: none;
   padding: 0em 12em 0em 12em;
 }
 
-.proudly {
+
+.body-copy {
   text-align: center;
   padding: 0em 12em 0em 12em;
 }
 
-.flavors {
-  text-align: center;
-  padding: 0em 12em 0em 12em;
+.bakery-good {
+  font-weight: bold;
+}
+
+.muffin-flavors {
+  font-size: .90em;
 }
 
 div {
@@ -96,8 +100,8 @@ div {
   margin: 0em 0em 0em 13em;
 }
 
-span {
-  display:inline-block;
+.sugar {
+  font-weight:bold;
 }
 
 body {
