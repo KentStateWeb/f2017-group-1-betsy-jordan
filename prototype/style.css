@@ -31,11 +31,13 @@ nav li {font-family: 'Khula', sans-serif;
         padding-left: 8px;
         padding-right: 8px;
         padding-top: 16px;
+        text-decoration: none;
 }
 
 nav ul {text-align: center;
         padding: 10px 10px 10px 10px;
         list-style-type: none;
+        text-decoration: none;
 }
 
 .menubutton {width: 48px;
@@ -58,7 +60,26 @@ nav ul {text-align: center;
 }
 
 /* Body */
+.prices {
+  font-family: 'Khula', sans-serif;
+}
 
+.drinks {
+  font-weight: bold;
+}
+}
+
+.sugar {
+  font-weight: bold;
+}
+
+div {
+  display: inline-block;
+}
+
+span {
+  display:inline-block;
+}
 
 body {
   color: #3D3D38;
@@ -67,7 +88,7 @@ body {
 }
 
 
-p {margin: 35px;
+p {margin: 50px;
   font-size: 1em;
   line-height: 1.5em;
 }
