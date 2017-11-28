@@ -112,6 +112,18 @@ a {text-decoration: none;
 .wholesale-link {padding: 4px 4px 4px 4px;
 }
 
+.steps {
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: gray;
+}
+
+.awards {
+  text-align: center;
+  line-height: 2em;
+}
+
 div {
   display: inline-block;
   margin: 0em 0em 0em 13em;
@@ -143,6 +155,7 @@ h1 {font-size: 2em;
 
 h2 {font-size: 1.6em
 }
+
 
 li {list-style-type: none;
 }
