@@ -6,7 +6,7 @@
 .logo {display: block;
       margin: 0 auto;
       width: 200px;
-      padding: 1.5em 0em 1.5em 0em;
+      padding: 1.5em 0em 0em 0em;
 
 }
 
@@ -82,13 +82,13 @@ a {text-decoration: none;
 
 
 @media screen and (min-width: 500px) {
-  .body-copy {
+  main {
     padding: 0em 2em 0em 2em;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .body-copy {
+  main {
     text-align: center;
     padding: 0em 12em 0em 12em;
   }
@@ -159,10 +159,6 @@ h2 {font-size: 1.6em
 li {list-style-type: none;
 }
 
-div, section, main, aside, header, footer {
-  padding: .75em;
-  margin-bottom: 0;
-}
 
 img {max-width: 100%;
 }
