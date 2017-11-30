@@ -23,6 +23,8 @@
                 align-items: center;
                 justify-content: center;
 }
+main {padding: 1em 0em 1em 0em;
+}
 }
 
 /* Navigation */
@@ -81,9 +83,10 @@ a {text-decoration: none;
 }
 
 
+
 @media screen and (min-width: 500px) {
   main {
-    padding: 0em 2em 0em 2em;
+    padding: 2em 0em 2em 0em;
   }
 }
 
@@ -139,7 +142,7 @@ body {
 }
 
 
-p {margin: 50px;
+p {margin: 35px;
   font-size: 1em;
   line-height: 1.5em;
 }
