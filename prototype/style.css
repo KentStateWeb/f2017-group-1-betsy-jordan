@@ -154,11 +154,14 @@ body {
 }
 
 
-p {margin: 35px;
+p {margin: 39px;
   font-size: 1em;
   line-height: 1.5em;
 }
 
+.body-copy {
+  padding: 0em 5em 0em 5em;
+}
 
 h1,h2,h3 {font-family: 'Khula', sans-serif;
       text-align: center;
