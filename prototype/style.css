@@ -97,6 +97,16 @@ a {text-decoration: none;
   }
 }
 
+@media screen and (min-width: 600px) {
+.drinks {display: flex;
+        text-align: left;
+  }
+.coffee{width: 50%;
+}
+.espresso{width: 50%;
+}
+}
+
 .bakery-good {
   font-weight: bold;
 }
