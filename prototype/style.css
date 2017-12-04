@@ -87,32 +87,34 @@ a {text-decoration: none;
 @media screen and (min-width: 500px) {
   main {
     padding: 2em 0em 2em 0em;
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  main {
-    text-align: center;
-    padding: 0em 12em 0em 12em;
+  main {padding: 0em 12em 0em 12em;
   }
 }
 
 @media screen and (min-width: 600px) {
 .drinks {display: flex;
-        text-align: left;
   }
-.coffee{width: 50%;
-}
-.espresso{width: 50%;
-}
 }
 
-.bakery-good {
-  font-weight: bold;
+.coffee, .espresso {width: 50%;
+                    margin: 0 auto;
 }
 
-.muffin-flavors {
-  font-size: .90em;
+table {margin: 0 auto;
+      text-align: left;
+
+}
+
+
+.bakery-good {font-weight: bold;
+}
+
+.muffin-flavors {font-size: .90em;
 }
 
 .wholesale {font-style: italic;
