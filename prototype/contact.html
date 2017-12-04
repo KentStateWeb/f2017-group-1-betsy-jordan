@@ -36,12 +36,12 @@
         <img src="Cuvee-Austin-Bar-Wide-1-2.jpg" alt="Our store">
         </picture>
 
-  <main>
+  <main class="address">
     <h1>Address</h1>
     <dl>
       <dt>Kent</dt>
       <dd>6110 Horning Rd., Kent, OH 44240</dd>
-      <dd>Phone:  (330) 672-3031</dd>
+      <dd class="footer-pad">Phone:  (330) 672-3031</dd>
     <a href="http:/linktomaphere">Link to Map Here</a>
       <dt>Columbus</dt>
       <dd>5883 High St.</dd>
@@ -61,13 +61,14 @@ var map = new mapboxgl.Map({
     zoom: 3 // starting zoom
 });
 </script>
-<h2>Hours of Operation<span>(same for both locations)</span></h2>
-   <dl>
-     <dt><span class="1">Monday - Friday:</span> 6:00AM - 10:30PM</dt>
+<h2>Hours of Operation</h2>
+<p class="locations">Same for both locations</p>
+   <dl class="hours">
+     <dt><span class="">Monday - Friday:</span> 6:00AM - 10:30PM</dt>
      <dt><span class="2">Saturday:</span> 7:00AM - 3:00PM</dt>
      <dt><span class="3">Sunday:</span> 7:30AM - 3:00PM</dt>
-    <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
-
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
+</dl>
     <footer>
       <section class="info">
     <dl>
