@@ -95,7 +95,7 @@ a {text-decoration: none;
 }
 
 @media screen and (min-width: 500px) {
-.drinks {display: flex;
+.drinks-container {display: flex;
   }
   .coffee, .espresso {width: 50%;
   }
@@ -135,10 +135,6 @@ table {margin: 0 auto;
   line-height: 2em;
 }
 
-div {
-  display: inline-block;
-  margin: 0em 0em 0em 0em;
-}
 
 .sugar {
   font-weight:bold;
