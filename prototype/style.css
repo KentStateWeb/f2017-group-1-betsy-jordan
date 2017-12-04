@@ -189,6 +189,19 @@ hr {
   padding-bottom: 1em;
 }
 
+.locations {
+  font-family: 'Khula', sans-serif;
+  margin: auto;
+  padding-top: 0em 0em 0em 0em;
+  text-align: center;
+  font-size: 20px;
+}
+
+.hours {
+  text-align: center;
+  padding-bottom: 7em;
+}
+
 
 footer {text-align: center;
          font-family: 'Khula', sans-serif;
@@ -227,6 +240,11 @@ footer h2 {border-bottom: 1.3px solid;
 
 ul {
 
+}
+
+.address {
+  padding-bottom: 5em;
+  text-align: center;
 }
 
 .bakery-menu {
