@@ -171,10 +171,16 @@ img {max-width: 100%;
 
   /* Footer */
 
+hr {
+  	border-top: 1px solid #D2D1C0;
+  }
+
 footer {text-align: center;
          font-family: 'Khula', sans-serif;
          color: #D2D1C0;
          background-color: #3D3D38;
+         padding-bottom: 2em;
+         padding-top: 2em;
 }
 
 footer dt {padding-top: 1em;
