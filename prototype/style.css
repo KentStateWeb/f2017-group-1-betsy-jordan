@@ -173,7 +173,13 @@ img {max-width: 100%;
 
 hr {
   	border-top: 1px solid #D2D1C0;
+    width: 50px;
   }
+
+.footer-pad {
+  padding-bottom: 1em;
+}
+
 
 footer {text-align: center;
          font-family: 'Khula', sans-serif;
