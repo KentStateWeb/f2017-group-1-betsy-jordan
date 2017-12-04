@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact</title>
     <meta name="description" content="Page Description Goes Here">
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
   </head>
   <body>
 
@@ -52,15 +52,10 @@
   </main>
 
 
-<script>
-mapboxgl.accessToken = 'pk.eyJ1IjoianN0ZXdhNjEiLCJhIjoiY2phMDdwc3J1OHpzazJ3czRja2p6MGFrMSJ9.vIykCxDUjBAZyWyQgwdUUw';
-var map = new mapboxgl.Map({
-    container: 'map', // container id
-    style: 'mapbox://styles/jstewa61/cja07xhw298dx2skpncux7349', //hosted style id
-    center: [41.152316,-81.335239], // starting position
-    zoom: 3 // starting zoom
-});
-</script>
+
+  <div id='map' style='width: 400px; height: 300px;'></div>
+
+
 <h2>Hours of Operation</h2>
 <p class="locations">Same for both locations</p>
    <dl class="hours">
@@ -85,9 +80,14 @@ var map = new mapboxgl.Map({
     </section>
     </footer>
 
-    <!LINKS!>
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoianN0ZXdhNjEiLCJhIjoiY2phMDdwc3J1OHpzazJ3czRja2p6MGFrMSJ9.vIykCxDUjBAZyWyQgwdUUw';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v9'
+    });
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="script.js"></script>
 
