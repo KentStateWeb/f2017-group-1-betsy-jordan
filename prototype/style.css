@@ -90,7 +90,7 @@ table {margin: 0 auto;
 .prices, .event, .body-bold, .item, .sugar, .locations, footer {font-family: 'Khula', sans-serif;
 }
 
-.drinks, .dates, .body-bold,.bakery-good, .sugar, .steps  {font-weight: bold;
+.drinks, .dates, .body-bold,.bakery-good, .sugar, .steps, .kent-contact, .contact-pad  {font-weight: bold;
 }
 
 .wholesale {font-style: italic;
@@ -184,11 +184,14 @@ hr {
   padding-bottom: 3em;
 }
 
-.address {
-  padding-bottom: 1em;
-  padding-top: 1em;
+.contact-pad {
+  padding-top: 2em;
+}
+
+.address, dd, .dates-margin {
   text-align: center;
   margin: 0 auto;
+  padding: 0em;
 }
 
 
@@ -199,6 +202,7 @@ footer {text-align: center;
          background-color: #3D3D38;
          padding-bottom: 2em;
          padding-top: 2em;
+         margin-top: 4em;
 }
 
 footer h2 {border-bottom: 1.3px solid;
