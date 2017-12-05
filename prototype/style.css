@@ -72,7 +72,7 @@ a {text-decoration: none;
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
 .drinks-container {display: flex;
   }
   .coffee, .espresso {width: 50%;
@@ -153,6 +153,11 @@ img {max-width: 100%;
                 margin: 0 auto;
                 display: block;
 }
+
+th,td {padding: 0em .75em 0em .75em;
+}
+
+th {padding-bottom: .75em;}
 
 * {
   box-sizing: border-box;}
