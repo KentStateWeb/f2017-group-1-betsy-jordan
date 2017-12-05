@@ -74,21 +74,10 @@ a {text-decoration: none;
 }
 }
 
-.sugar {
-  font-family: 'Khula', sans-serif;
-}
-
-
-
-
-  main {
-    padding: 2em 1em 2em 1em;
-    text-align: center;
-  }
-
 
 @media screen and (min-width: 1200px) {
   main {padding: 0em 12em 0em 12em;
+        text-align: center;
   }
 }
 
@@ -104,10 +93,10 @@ table {margin: 0 auto;
       padding-bottom: 2em;
 }
 
-.item {font-family: 'Khula', sans-serif;}
+.item, .sugar {font-family: 'Khula', sans-serif;}
 
 
-.bakery-good {font-weight: bold;
+.bakery-good, .sugar, .steps {font-weight: bold;
 }
 
 .muffin-flavors {font-size: .90em;
@@ -124,7 +113,6 @@ table {margin: 0 auto;
 
 .steps {
   font-style: italic;
-  font-weight: bold;
   text-align: center;
   color: gray;
 }
@@ -136,11 +124,8 @@ table {margin: 0 auto;
   padding: 0;
 }
 
-.sugar {
-  font-weight:bold;
-}
 
-#map {
+#map, #map2 {
   position: relative;
   width: 100%;
   height: 500px;
@@ -169,10 +154,8 @@ h1 {font-size: 2em;
 h2 {font-size: 1.6em
 }
 
-
 li {list-style-type: none;
 }
-
 
 img {max-width: 100%;
 }
