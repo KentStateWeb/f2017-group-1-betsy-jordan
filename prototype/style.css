@@ -28,8 +28,7 @@
 
 /* Navigation */
 
-nav li {font-family: 'Khula', sans-serif;
-        list-style-type: none;
+nav li {list-style-type: none;
         padding-left: 8px;
         padding-right: 8px;
         text-decoration: none;
@@ -66,6 +65,9 @@ a {text-decoration: none;
 .prices, .event, .body-bold, .muffin-flavors {font-size: .90em;
 }
 
+body, header {max-width: 1300px;
+}
+
 @media screen and (min-width: 1200px) {
   main {padding: 0em 12em 0em 12em;
         text-align: center;
@@ -87,7 +89,7 @@ table {margin: 0 auto;
 .baked-goods {margin: 0 auto;
 }
 
-.prices, .event, .body-bold, .item, .sugar, .locations, footer {font-family: 'Khula', sans-serif;
+.prices, .event, .body-bold, .item, .sugar, .locations, footer, nav li {font-family: 'Khula', sans-serif;
 }
 
 .drinks, .dates, .body-bold,.bakery-good, .sugar, .steps, .kent-contact, .contact-pad  {font-weight: bold;
