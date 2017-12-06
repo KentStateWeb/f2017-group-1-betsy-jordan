@@ -51,7 +51,7 @@ a {text-decoration: none;
 
 @media screen and (min-width: 800px) {
 
-  a:hover {background-color: #3D3D38;
+  a:hover, a:focus {background-color: #3D3D38;
           color: #D2D1C0;
   }
 }
