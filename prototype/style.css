@@ -90,7 +90,12 @@ table {margin: 0 auto;
 .prices, .event, .body-bold, .item, .sugar, .locations, footer, nav li {font-family: 'Khula', sans-serif;
 }
 
-.drinks, .dates, .body-bold,.bakery-good, .sugar, .steps, .kent-contact, .contact-pad  {font-weight: bold;
+.item {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+.drinks, .dates, .body-bold,.bakery-good, .sugar, .kent-contact, .contact-pad  {font-weight: bold;
 }
 
 .wholesale {font-style: italic;
@@ -98,20 +103,37 @@ table {margin: 0 auto;
             padding-top: 5px;
 }
 
+.body-copy {
+  padding: 0em 4em 0em 4em;
+}
+
+
 .wholesale-link {padding: 4px 4px 4px 4px;
 }
 
-.steps {
+.steps, .steps-last {
   font-style: italic;
   text-align: center;
   color: gray;
+  line-height: 2em;
 }
+
 
 .awards {line-height: 2em;
         margin:0;
         padding: 0;
 }
 
+.heading-grey {
+  font-weight: 300;
+  color: #7D7C72;
+}
+
+.heading-tan {
+  font-weight: 900;
+  color: #D2D1C0;
+  text-transform: uppercase;
+}
 
 #map, #map2 {
   position: relative;
@@ -134,9 +156,11 @@ p {margin: 2.3em;
 
 h1,h2,h3 {font-family: 'Khula', sans-serif;
       text-align: center;
+      text-transform: uppercase;
+      letter-spacing: .1em;
 }
 
-h1 {font-size: 2em;
+h1 {font-size: 4em;
 }
 
 h2 {font-size: 1.6em
@@ -184,6 +208,10 @@ hr {
   padding-bottom: 3em;
 }
 
+.hours {
+  font-size: 1.75em;
+}
+
 .contact-pad {
   padding-top: 2em;
 }
@@ -194,6 +222,15 @@ hr {
   padding: 0em;
 }
 
+.dates-margin {
+  line-height: 2em;
+}
+
+.coffee-tea-content {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Khula', sans-serif;
+}
 
 /* Footer */
 
