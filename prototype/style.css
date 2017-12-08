@@ -15,6 +15,11 @@
 
 .logo {width: 300px;
 }
+body {text-align: center;
+}
+a:hover, a:focus {background-color: #3D3D38;
+        color: #D2D1C0;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -23,6 +28,8 @@
                 align-items: center;
                 justify-content: center;
               }
+ul a:active {color: #D2D1C0;
+}
 }
 
 
@@ -50,17 +57,7 @@ a {text-decoration: none;
   color: #3D3D38;
 }
 
-@media screen and (min-width: 800px) {
 
-  a:hover, a:focus {background-color: #3D3D38;
-          color: #D2D1C0;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  ul a:active {color: #D2D1C0;
-  }
-}
 
 /* Body */
 .prices, .event, .body-bold, .muffin-flavors {font-size: .90em;
@@ -113,7 +110,7 @@ table {margin: 0 auto;
             padding-top: 5px;
 }
 
-.body-copy {
+.body-copy, {
   padding: 0em 1em 0em 1em;
 }
 
@@ -131,7 +128,7 @@ table {margin: 0 auto;
 
 .awards {line-height: 2em;
         margin:0;
-        padding: 0;
+        padding: 0em 1em 0em 1em;
 }
 
 .heading-grey {
