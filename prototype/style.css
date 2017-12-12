@@ -22,6 +22,11 @@ a:hover, a:focus {background-color: #3D3D38;
 }
 }
 
+footer a {
+  text-decoration: none;
+  color: #D2D1C0;
+}
+
 @media screen and (max-width: 800px) {
 
 .headercontent {display: flex;
