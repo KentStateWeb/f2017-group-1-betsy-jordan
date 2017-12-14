@@ -1,0 +1,253 @@
+
+body {margin: 0 auto;
+      color: #3D3D38;
+}
+
+
+/* HEADER */
+
+
+.logo {display: flex;
+      justify-content: center;
+
+}
+
+header img {width: 200px;}
+
+
+
+/*  navigation */
+
+nav {display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul {list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+}
+
+nav li {font-family: 'Khula', sans-serif;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 3px;
+}
+
+a:hover {background-color: #3D3D38;
+        color: #D2D1C0;
+}
+
+
+/* MAIN */
+
+
+
+p {font-family: 'Lora', serif;
+  margin: 35px;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.boldbody {font-weight: 900;
+          font-size: 1.25em;
+          font-family: 'Khula', sans-serif;
+}
+
+h1,h2 {font-family: 'Khula', sans-serif;
+      text-align: center;
+      letter-spacing: .1em;
+}
+
+h1 {font-size: 2em;
+
+}
+
+h2 {font-size: 1.6em
+}
+
+.headings h2 {padding-bottom: 2em;
+}
+
+.headingtan {font-weight: 900;
+            color: #D2D1C0;
+}
+
+.headinggray {font-weight: 300;
+              color: #7D7C72;
+}
+
+.palettecontainer {display: flex;
+                  justify-content: center;
+}
+
+.colorpalette {display: flex;}
+
+.color1 {
+     background-color: #D2D1C0;
+      width: 50px;
+      height: 50px;
+      margin:5px;
+}
+
+.color2 {
+     background-color: #FCFBE7;
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+}
+
+.color3 {
+     background-color: #3D3D38;
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+}
+
+.color4 {
+     background-color: #7D7C72;
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+}
+
+.color5 {
+     background-color: #E3E2CF;
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+}
+
+table {text-align: left;
+      margin: 30px;
+      line-height: 1em;
+}
+
+.drinkmenu {display: flex;
+            justify-content: center;
+}
+
+th,td {padding-right: 1em;
+    padding-left: 1em;
+}
+
+th {padding-bottom: 1.3em;}
+
+.item {font-family: 'Khula', sans-serif;}
+
+table 1 {padding-bottom: 2em;
+}
+
+
+/* LARGE SCREEN */
+
+@media screen and (min-width: 900px) {
+  .header {padding-bottom: 50px;
+  }
+  header img {width: 250px;
+              padding-top: 2em;
+  }
+  nav {font-size: 1em;
+      font-weight: 100;
+      padding-bottom: 2em;
+  }
+  nav li {padding-left: 12px;
+          padding-right: 12px;
+          padding-top: 3px;
+          font-size: 1.5em
+  }
+  .palettecontainer {padding-bottom: 3em;
+  }
+  .color1 {
+       background-color: #D2D1C0;
+        width: 100px;
+        height: 100px;
+        margin:10px;
+  }
+
+  .color2 {
+       background-color: #FCFBE7;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+  }
+
+  .color3 {
+       background-color: #3D3D38;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+  }
+
+  .color4 {
+       background-color: #7D7C72;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+  }
+
+  .color5 {
+       background-color: #E3E2CF;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+
+
+  }
+}
+
+/* Nav Link */
+
+HTML  CSS  JS  Result
+Edit on
+a.menu-link {
+        float: right;
+            display: block;
+            padding: 1em;
+        }
+        nav[role=navigation] {
+            clear: both;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+        .js nav[role=navigation] {
+            overflow: hidden;
+            max-height: 0;
+        }
+        nav[role=navigation].active {
+            max-height: 15em;
+        }
+        nav[role=navigation] ul {
+            margin: 0;
+            padding: 0;
+            border-top: 1px solid #808080;
+        }
+        nav[role=navigation] li a {
+            display: block;
+            padding: 0.8em;
+            border-bottom: 1px solid #808080;
+        }
+
+        @media screen and (min-width:800px) {
+            a.menu-link {
+               display: none;
+            }
+            .js nav[role=navigation] {
+                max-height: none;
+            }
+            nav[role=navigation] ul {
+                margin: 0 0 0 -0.25em;
+                border: 0;
+            }
+
+            nav[role=navigation]  li {
+                display: inline-block;
+                margin: 0 0.25em;
+            }
+            nav[role=navigation] li a {
+                border: 0;
+            }
+        }
